@@ -1,5 +1,5 @@
 ## Collaborative Social Science Data Analysis-First assignment repository
-### <a href="https://github.com/EmiliaSicari">Emilia Sicari</a> and <a href="https://github.com/rafalopezv">Rafael Lopez V.</a> 
+## <a href="https://github.com/EmiliaSicari">Emilia Sicari</a> and <a href="https://github.com/rafalopezv">Rafael Lopez V.</a> 
 
 ###Introduction
 
@@ -8,7 +8,7 @@ In order to fulfill our first task, we created two separated Rscript files to an
 
 ###Characteristics of the first assignment
 
-According to the <a ref="https://github.com/rafalopezv/SyllabusAndLectures">Syllabus</a> : Understanding file structures, version control, and basic R data structures and descriptive statistics. Creation a fully documented GitHub repository, including  a descriptive README.md file. 
+According to the <a href="https://github.com/rafalopezv/SyllabusAndLectures">Syllabus</a> : Understanding file structures, version control, and basic R data structures and descriptive statistics. Creation a fully documented GitHub repository, including  a descriptive README.md file. 
 "The repository will include R source code files that access at least two core R data sets, perform basic transformations on the data, and illustrate the datas' distributions using a variety relevant of descriptive statistics. At least one file must dynamically link to another in a substantively meaningful way. Finally, another pair must make a pull request and it should be discussed and merged. Deadline 4 March, 10% of final grade." 
 
 ### Women data set analysed by Emilia Sicari
