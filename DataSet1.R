@@ -7,7 +7,7 @@
 
 #Setting the working directory 
 getwd()
-setwd("/Users/emiliasicari/Desktop/Assignment1/")
+setwd("/Users/emiliasicari/Desktop/Assignment1/Assignment1")
 
 #Installing packages, or loading packages if already installed
 #Loading the ggplot2 package
