@@ -69,7 +69,7 @@ IQR(women$height)
 var(women$height)
 #standard deviation
 sd(women$height)
-#standardization of variable 'height'
+#standardizing the variable
 hz1<-scale(women$height)
 
 #Description of the distribution of the numeric variable 'weight'
@@ -97,18 +97,18 @@ IQR(women$weight)
 var(women$weight)
 #standard deviation
 sd(women$weight)
-#standardization of variable 'height'
+#standardizing the varibale
 hz1<-scale(women$height)
 
-#Bivariate distribution of the two variables
-#creating a scatterplot
-objects()#checking if the data set 'women' is still in the workspace
-plot(women$weight, women$height, xlab = women$weight, ylab = women$height)
-
-segments (mean(women$weight), mean(women$height), mean(women$weight), min(women$height) - 5, lty = "dashed")
-segments (min(women$weight) - 5, mean(women$height), mean(women$weight), mean(women$height), lty = "dashed")
-
-
+#Measuring the association between the two variable
+cor.test(log(women$height), women$weight)
+#correlation graph
+corrgram(women)
+plot(log(women$height), women$weight,
+     main = 'Correlation between weight and height of American Women',
+    xlab = '')
+#Showing the relation between height and weight
+ggplot(women, aes(height, weight)) + geom_path()
 
 
 citation()
