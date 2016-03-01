@@ -1,4 +1,5 @@
-## Emilia Sicari and Rafael Lopez V.
+## Collaborative Social Science Data Analysis - First assignments repository
+## <a href="https://github.com/EmiliaSicari">Emilia Sicari</a> and <a href="https://github.com/rafalopezv">Rafael Lopez V.</a> 
 
 ##March 1st 2016
 
