@@ -8,7 +8,7 @@
 ####################################################
 
 ####################################################
-Setting working directory and initial exploring data
+#Setting working directory, data exploration, packages installation
 ####################################################
 
 # Setting the working directory
@@ -22,9 +22,13 @@ data()
 class(p)
 # Changing the name of the dataset for operating more easily 
 p<- WorldPhones
+install.packages("reshape")
+library(reshape)
+library(ggplot2)
+library(corrgram)
 
 ####################################################
-Data transformation
+#Data transformation
 ####################################################
 # Converting p into a data frame 
 p<-data.frame(p)
@@ -34,6 +38,12 @@ head(p)
 ph <- cbind(Year = rownames(p), p)
 # Deleting the original row names
 rownames(ph) <- NULL
-# Converting the data.frame in a non matrix format
-res <- data.frame(Year= ph$Year, stack(ph,select=-ph))
-res
+# Converting the data.frame into a non matrix format
+(pho <- melt(as.data.frame(ph), id="Year"))pho
+# Checking the data after the reshaping
+summary(pho)
+# Changing weird columns'names 
+names(pho)[2]<-paste("Region")
+names(pho)[3]<-paste("Phones")
+
+
