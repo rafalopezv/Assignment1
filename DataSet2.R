@@ -18,14 +18,14 @@ getwd()
 # Exploring the datasets available in R
 data()
 ?WorldPhones
-# Checking characteristics of the dataset
-class(p)
 # Changing the name of the dataset for operating more easily 
 p<- WorldPhones
 install.packages("reshape")
 library(reshape)
 library(ggplot2)
 library(corrgram)
+# Checking characteristics of the dataset
+class(p)
 
 ####################################################
 #Data transformation
@@ -39,7 +39,7 @@ ph <- cbind(Year = rownames(p), p)
 # Deleting the original row names
 rownames(ph) <- NULL
 # Converting the data.frame into a non matrix format
-(pho <- melt(as.data.frame(ph), id="Year"))pho
+(pho <- melt(as.data.frame(ph), id="Year"))
 # Checking the data after the reshaping
 summary(pho)
 # Changing weird columns'names 
