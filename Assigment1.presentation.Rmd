@@ -8,7 +8,7 @@ source("DataSet2.R")
 
 ---
 title: "Assignment1"
-author: Rafa and Emilia 
+author: Rafael and Emilia 
 date: 4.3.16
 output: ioslides_presentation
 ---
@@ -39,8 +39,7 @@ hist(women$weight)
 ```
 Finally, the two variables are highly positively correlated, since correlation is 0.99. Positive correlation is showed by the correlation graph, when height increases, weight increases too. 
 ```{r, echo=TRUE}
-hist(women$height)
-hist(women$weight)
+ggplot(women, aes(height, weight)) + geom_path()
 ```
 
 ## Telephones
