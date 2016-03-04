@@ -97,8 +97,5 @@ names(summary3)[3]<-paste("Phones' standard deviation")
 ####################################################
 
 # making some graphs to see the evolution of phone users by time and region
-ggplot(pho) + aes(x = pho$Year , y = pho$Phones) + geom_line()
-ggplot(pho) + aes(x = pho$Year, y = pho$Phones, color = pho$Region) + geom_point() 
-
-
-
+graph1<-ggplot(pho) + aes(x = pho$Year , y = pho$Phones) + geom_line()
+graph2<-ggplot(pho) + aes(x = pho$Year, y = pho$Phones, color = pho$Region) + geom_point() 

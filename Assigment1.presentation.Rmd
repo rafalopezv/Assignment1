@@ -1,26 +1,37 @@
 ```{r}
-try(setwd("/Users/rafalopezv/Desktop/R/assignment1/"), silent = TRUE)
-try(setwd("/Users/emiliasicari/Desktop/Assignment1/Assignment1"), silent = TRUE)
-source("DataSet1.R")
+setwd("/Users/rafalopezv/Desktop/R/assignment1/")
 source("DataSet2.R")
 ```
 
 ---
 title: "Assignment1"
+author: Rafa and Emilia 
+date: 4.3.16
 output: ioslides_presentation
 ---
 
-## R Markdown
+## Introduction
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This presentations summarizes the main findings of two data sets:
+- Number of telephones in various regions of the world
+- Average heights and weights for American women aged 30???39.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+ 
+## Number of telephones in various regions of the world 
 
-## Slide with Bullets
+The data "Telephones in various regions of the world" contents the following information: 
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+- Phone users (in thousands)
+- Regions
+  - North America
+  - Europe
+  - Asia
+  - South America
+  - Oceania
+  - Africa
+  - Central America
+- Yeears
+  - 1951, 1956, 1957, 1958, 1959, 1960, 1961
 
 ## Slide with R Code and Output
 
