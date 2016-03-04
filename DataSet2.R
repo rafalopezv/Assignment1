@@ -20,7 +20,6 @@ data()
 ?WorldPhones
 # Changing the name of the dataset for operating more easily 
 p<- WorldPhones
-install.packages("reshape")
 library(reshape)
 library(ggplot2)
 library(corrgram)
