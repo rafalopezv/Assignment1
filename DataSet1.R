@@ -12,8 +12,8 @@ setwd("/Users/emiliasicari/Desktop/Assignment1/Assignment1")
 #Installing packages, or loading packages if already installed
 #Loading the ggplot2 package
 library(ggplot2)
-#Installing package corrgramm
-install.packages(corrgramm)
+#Installing package corrgram
+install.packages(corrgram)
 #Loading the installed package corrgramm
 library(corrgram)
 #Installing package dplyr
