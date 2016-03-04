@@ -17,3 +17,8 @@ After listing of the data sets provided by R, I chose the one called "Women", wh
 ### The Worlds´ Telephones analysed by Rafael Lopez V
 The number of telephones in various regions of the world (in thousands) is expressed in the years:1951, 1956, 1957, 1958, 1959, 1960, 1961.All the data is also classified in 7 regions: North America, Europe, Asia, South America, Oceania, Africa, Central America.
 The initial matrix of 7 rows (years) and 8 columns (Regions) was modified in a data base format.The file of the anañysis is: DataSet2. 
+
+###Accessing data
+To access the two data sets analysis 
+<a href="https://github.com/rafalopezv/Assignment1/blob/master/DataSet1.R">DataSet1.R</a>
+
