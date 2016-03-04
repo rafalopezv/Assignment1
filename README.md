@@ -23,3 +23,6 @@ To access the anlyses on women data set and world phones data set, click respect
 <a href="https://github.com/rafalopezv/Assignment1/blob/master/DataSet1.R">DataSet1.R</a> and 
 <a href="https://github.com/rafalopezv/Assignment1/blob/master/DataSet2.R">DataSet2.R</a>
 
+###Finally, me made two pull requests to the respository created by Mariam Sanjuch and Roberto Martinez B. Kukutschka, adding R citation at the end of the two R scripts in which they analysed their data sets: <a href="https://github.com/rafalopezv/Assignment1/blob/master/DataSet1.R">DataSet1.R</a> and 
+<a href="https://github.com/rkukutschka/Assignment1/blob/master/DescriptivesDiamonds.R">DescriptivesDiamonds.R</a> and 
+<a href="https://github.com/rkukutschka/Assignment1/blob/master/DescriptivesInfertility.R">DescriptivesInfertility.R</a> 
