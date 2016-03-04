@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 ```{r}
 try(setwd("/Users/rafalopezv/Desktop/R/assignment1/"), silent = TRUE)
 try(setwd("/Users/emiliasicari/Desktop/Assignment1/Assignment1"), silent = TRUE)
@@ -10,11 +13,15 @@ title: "Assignment1"
 output: ioslides_presentation
 ---
 
-## R Markdown
+## Introduction
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This is the presentation of the relevant descriptive statistics used by Emilia Sicari and Rafel Lopez V. in the analysis of the data sets 'women' and 'worldphones' respectively.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+##Women
+```{r}
+str(women)
+```
+As shown by the function "structure", the data set is composed of two numeric variables, height and weight, and 15 observations. Here it follows some relevant descriptive statistics. 
 
 ## Slide with Bullets
 
@@ -25,12 +32,13 @@ When you click the **Knit** button a document will be generated that includes bo
 ## Slide with R Code and Output
 
 ```{r}
-summary(cars)
+str(women)
 ```
 
 ## Slide with Plot
-
+Using the box plots, we can see that the distribution os the two variables are reasonably symmetric, even though in the case of the variable 'weight', the distribution is concentrated between the 1st and the second quartile. 
 ```{r, echo=FALSE}
-plot(cars)
+boxplot(women$height)
+boxplot(women$weight)
 ```
 
