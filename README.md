@@ -19,8 +19,7 @@ The number of telephones in various regions of the world (in thousands) is expre
 The initial matrix of 7 rows (years) and 8 columns (Regions) was modified in a data base format.The file of the anañysis is: DataSet2. 
 
 ###Accessing data
-To access the anlyses on women data set and world phones data set, click on - respectively-: 
-<a href="https://github.com/rafalopezv/Assignment1/blob/master/DataSet1.R">DataSet1.R</a>
-
+To access the anlyses on women data set and world phones data set, click respectively on: 
+<a href="https://github.com/rafalopezv/Assignment1/blob/master/DataSet1.R">DataSet1.R</a> and 
 <a href="https://github.com/rafalopezv/Assignment1/blob/master/DataSet2.R">DataSet2.R</a>
 
