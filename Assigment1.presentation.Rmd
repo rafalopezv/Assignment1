@@ -1,6 +1,6 @@
 ---
 title: "Assignment1"
-author: Rafa and Emilia 
+author: Rafael and Emilia 
 date: 4.3.16
 output: ioslides_presentation
 ---
@@ -19,21 +19,37 @@ This presentations summarizes the main findings of two data sets:
 - Average heights and weights for American women aged 30-39.
 - Number of telephones in various regions of the world
 
-##Women
-```{r}
-str(women)
-```
+## Women data set: decription
 As shown by the function "structure", the data set is composed of two numeric variables, height and weight, and 15 observations. Here it follows some relevant descriptive statistics. 
+<<<<<<< HEAD
 
 
 ## Slide with Plot
 Using the box plots, we can see that the distribution os the two variables are reasonably symmetric, even though in the case of the variable 'weight', the distribution is concentrated between the 1st and the second quartile. 
+```{r}
+str(women)
+```
+
+## Women data set: plots
+Using the box plots, we can see that the distribution of the two variables are reasonably symmetric, even though in the case of the variable 'weight', the distribution is concentrated between the 1st and the 2nd quartiles. 
+
 ```{r, echo=TRUE}
 boxplot(women$height)
 boxplot(women$weight)
 ```
 
+## Women data set: histograms
+Moreover, the histograms show the distributions of the two variables. In the case of height, density is constant in case of women higher than 60inches. Instead, in the case of weight, density is constant for women weighing less than 50pounds. 
+```{r, echo=TRUE}
+hist(women$height)
+hist(women$weight)
+```
 
+## Correlation of variables
+Finally, the two variables are highly positively correlated, since correlation is 0.99. Positive correlation is showed by the correlation graph, when height increases, weight increases too. 
+```{r, echo=TRUE}
+ggplot(women, aes(height, weight)) + geom_path()
+```
 
 ## Telephones
 The datas set "The World's telephones" consists on:

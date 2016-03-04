@@ -14,7 +14,23 @@ According to the <a href="https://github.com/rafalopezv/SyllabusAndLectures">Syl
 ### Women data set analysed by Emilia Sicari
 After listing of the data sets provided by R, I chose the one called "Women", which describes the height and weight of American women aged 30-39 in 1975.The data set is composed only of two numeric variables: height and weight. Therefore, I proceeded by applying descriptive statistics to the two variable separately and then I ended up assessing the correlation between the two variables. You can find the analysis I carried out in the folder Assignement1 in the file named DataSet1.R.
 
+<<<<<<< HEAD
 ### The Worlds?? Telephones analysed by Rafael Lopez V
 The number of telephones in various regions of the world (in thousands) is expressed in the years:1951, 1956, 1957, 1958, 1959, 1960, 1961.All the data is also classified in 7 regions: North America, Europe, Asia, South America, Oceania, Africa, Central America.
 The initial matrix of 7 rows (years) and 8 columns (Regions) was modified in a data base format.The file of the ana??ysis is: DataSet2. 
 
+=======
+### The Worlds´ Telephones analysed by Rafael Lopez V
+The number of telephones in various regions of the world (in thousands) is expressed in the years:1951, 1956, 1957, 1958, 1959, 1960, 1961.All the data is also classified in 7 regions: North America, Europe, Asia, South America, Oceania, Africa, Central America.
+The initial matrix of 7 rows (years) and 8 columns (Regions) was modified in a data base format.The file of the anañysis is: DataSet2. 
+
+###Accessing data
+To access the anlyses on women data set and world phones data set, click respectively on: 
+<a href="https://github.com/rafalopezv/Assignment1/blob/master/DataSet1.R">DataSet1.R</a> and 
+<a href="https://github.com/rafalopezv/Assignment1/blob/master/DataSet2.R">DataSet2.R</a>
+
+###Pull Requests
+Finally, me made two pull requests to the respository created by Mariam Sanjuch and Roberto Martinez B. Kukutschka, adding R citation at the end of the two R scripts in which they analysed their data sets: 
+<a href="https://github.com/rkukutschka/Assignment1/blob/master/DescriptivesDiamonds.R">DescriptivesDiamonds.R</a> and 
+<a href="https://github.com/rkukutschka/Assignment1/blob/master/DescriptivesInfertility.R">DescriptivesInfertility.R</a> 
+>>>>>>> origin/master
